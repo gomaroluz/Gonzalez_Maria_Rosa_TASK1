@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+@font-face {
+    font-family: 'Comic Sans Ms';
+    src: url('../style/Fonts/ComicSansMS3.ttf');
+}
+
+:root{
+        --orange: #fcc72c;
+        --green: #01544c;
+        --gris: #f4f4f1;
+
+    }
+
+    header{
+        background-image: url(./imag/1imageedit_1_4543562155.jpg);
+        background-color: var(--gris);
+        min-height: 20vh;
+        background-size: contain;
+        object-fit: cover;
+        background-repeat: no-repeat;
+        font-size: 20px;
+
+    }
+
+    main{
+        background-color: var(--orange);
+        height: 75vh;
+    }
+
+    footer{
+        background-color: var(--green);
+        min-height: 5vh;
+    }
