@@ -1,35 +1,102 @@
+@font-face {
+    font-family: 'Comic Sans Ms';
+    src: url(../assets/imag/Fonts/ComicSansMS3.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Comic Sans Ms';
     }
 
-@font-face {
-    font-family: 'Comic Sans Ms';
-    src: url('../style/Fonts/ComicSansMS3.ttf');
-}
+
 
 :root{
         --orange: #fcc72c;
         --green: #01544c;
-        --gris: #f4f4f1;
+        --gris: #f7f7e3;
+        --violeta:#472243;
+        --Negro: #000;
+
+        
 
     }
 
     header{
-        background-image: url(./imag/1imageedit_1_4543562155.jpg);
         background-color: var(--gris);
-        min-height: 20vh;
-        background-size: contain;
-        object-fit: cover;
-        background-repeat: no-repeat;
-        font-size: 20px;
+        min-height: 15vh;
+        display: flex;
+        font-size: 18px;
+        flex-wrap: nowrap;
+        justify-content: center; 
+        gap: 2rem;
+        align-items: center;
+        font-size: 30px;
+
 
     }
 
-    main{
-        background-color: var(--orange);
+    header img {
+        height: 135px;
+        width: 135px;
+        background-color: #01544c;  
+        box-shadow: 5px 5px var(--orange);
+    }
+
+    .boxh2{
+        background-color: #01544c;
+        color: #f4f4f1;
+        text-align: center;
+        padding: auto;
+        font-size: x-large;
+    }
+        
+ nav {
+        width: 15%;
         height: 75vh;
+        display: flex;
+        flex-direction: column;
+        flex-wrap:nowrap;
+        background-color: #01544c;
+        padding: 1rem;
+        align-items: center;
+        justify-content: space-around;
+        gap: 10px;
+    }
+
+    nav a{
+        height: 5rem;
+        width: 20rem;
+        color: var(--gris);
+        text-decoration: none;
+        font-size: 22px;
+        font-weight: bolder;             
+        padding-top: 1.5rem;
+        text-align: center;
+                
+    }
+
+    .sidenav .active {
+        color: var(--green);
+        background-color: var(--orange);
+    }
+
+
+    
+    .maincontent{
+        background-color: var(--orange);
+        width: 100vw;
+        height: 75vh;
+        display: flex;
+    }
+
+    .principal{
+        margin-left: 12rem;
+        margin-top: 10rem;
+        font-size: 30px;
+
+
     }
 
     footer{
