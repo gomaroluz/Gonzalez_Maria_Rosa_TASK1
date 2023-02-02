@@ -60,8 +60,8 @@
     }
         
  nav {
-        width: 17rem;
-        height: 70vh;
+        width: 15rem;
+        height: 75vh;
         display: flex;
         flex-direction: column;
         flex-wrap:nowrap;
@@ -74,7 +74,7 @@
 
     nav a{
         height: 5rem;
-        width: 17rem;
+        width: 15rem;
         color: var(--blanco);
         text-decoration: none;
         font-size: 22px;
@@ -94,44 +94,47 @@
     .maincontent{
         background-color: var(--gris);
         width: 100vw;
-        height: 70vh;
+        height: 75vh;
         display: flex;
         
     }
 
-    .principal{
-        margin-left: 6rem;
-        margin-top: 5rem;
+    article {
+        margin-left: 10%;
+        margin-top: 10%;
         font-size: 18px;
         
     }
     
     .aboutmain {
         background-image: url(./imag/hockey_1.jpg);
-        font-size: 18px;
+        margin-top: 3%;
+        font-size: 22px;
         text-align: justify;
         font-weight:900;
         text-shadow: 1px 1px var(--gris);
         color: var(--Negro);
-        padding: 2% 5% 0 5%;        
+        padding: 2% 5% 0 5%; 
+        background-repeat: no-repeat; 
+        background-size: cover;    
         object-fit: cover;
 
     }
 
     .maincontact {
-        margin: 5%;
+        margin: 10%;
         font-size: 18px;
     }
        
 
     #photohome {
-        width: 400px;
-        height: 300px;
-        margin-top: 60px;
-        margin-right: 10px;
+        width: 30%;
+        height: 60%;
+        margin-top: 5%;
+        margin-left: 10%;
         object-fit: cover;
         border-radius: 50%;
-        box-shadow: 5px 5px var(--green);
+        box-shadow: 7px 7px var(--green);
         }
 
     footer{
