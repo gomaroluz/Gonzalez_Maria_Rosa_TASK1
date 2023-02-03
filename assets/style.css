@@ -34,7 +34,6 @@
         align-items: center;
         font-size: 30px;
         
-
     }
 
     h1{
@@ -94,24 +93,23 @@
     .maincontent{
         background-color: var(--gris);
         width: 100vw;
-        height: 75vh;
         display: flex;
         
     }
 
     article {
         margin-left: 10%;
-        margin-top: 10%;
-        font-size: 18px;
-        
+        margin-top: 7%;
+        font-size: 18px;  
+    
     }
     
-    .aboutmain {
+    .about_main {
         background-image: url(./imag/hockey_1.jpg);
-        margin-top: 3%;
-        font-size: 22px;
+        margin-top: 1%;
+        font-size: 18px;
         text-align: justify;
-        font-weight:900;
+        font-weight: 900;
         text-shadow: 1px 1px var(--gris);
         color: var(--Negro);
         padding: 2% 5% 0 5%; 
@@ -121,23 +119,95 @@
 
     }
 
-    .maincontact {
+    .main_contact {
         margin: 10%;
         font-size: 18px;
     }
        
-
-    #photohome {
+ 
+    #photo_home {
         width: 30%;
         height: 60%;
-        margin-top: 5%;
-        margin-left: 10%;
+        margin-top: 4%;
+        margin-right: 7%;
         object-fit: cover;
         border-radius: 50%;
         box-shadow: 7px 7px var(--green);
         }
+    
+    .rules{
+        text-align: justify;
+        padding: 0.5% 1% 0.5% 5%;   
+        font-size: 12px;
+    }
+
+    #titles_rules {
+        text-align: center;
+    }
+
+    #h2title {
+
+    }
+
+    ol {
+        padding-left: 1.2%;
+    }
+
+    ol.latin {
+        list-style-type: lower-latin;
+        padding-left: 2%;
+    }
+
+    ul.circulo  {
+        list-style-type: circle;
+        padding-left: 2%;
+    }
+
+    .imgrules{
+        width: 10%;
+        height: 10%;
+        background-color: #fcc72c;
+    }
+    
+    .game_info {
+        padding-top: 1%;
+        padding-left:  5%;
+    }
+
+    table caption {
+        text-align: start;
+    }
+
+    table { 
+        border: 1px solid var(--blanco);
+        border-collapse: collapse; 
+        margin-top: 3%; 
+        font-size: 1em;
+        min-width: 800px; 
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); }
+
+    table thead tr{
+        width: 24rem;
+        background-color:var(--green);
+        color: var(--orange); 
+        text-align: left; 
+        }
+
+    table tbody tr {
+        text-align: left;
+        font-size: 18px;
+    }
+
+    table tbody tr:nth-of-type(even) {
+         background-color: #f3f3f3;
+         }
+
+
+    table th, td { 
+        padding: 5px 10px;
+     }
 
     footer{
         background-color: var(--green);
-        min-height: 5vh;
+        min-height: 4vh;
     }
