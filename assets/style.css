@@ -231,6 +231,102 @@
         padding: 5px 10px;
      }
 
+    .container__maps {
+        width: 600px;
+        height: 200px;
+        padding: 1rem;
+        margin: 1rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    
+
+     .data_sheet {
+        width: 100vw;
+        height: 75vh;
+        background-color: rgb(147, 177, 166);
+        padding: 1rem;
+        font-size: 20px ;
+        display: flex;
+        /* flex-direction: column; */
+        gap: 1rem;
+    
+     }
+
+     input {
+        margin-top: 0.5%;          
+     }
+     
+     fieldset {
+        padding: 0.3rem ;
+        border: none;
+        display: block;
+    }
+
+    label{
+        padding-left: 1rem;
+     }
+
+     label input {
+        border: none;
+        display: inline-block;
+        padding: 1rem;
+     }
+
+     #name {
+        width: 550px; 
+     }
+
+     #last_name {
+        width: 400px;
+     }
+
+     #address {
+        width: 1110px;
+     }
+
+    #city {
+        width: 700px;
+     }
+     
+    #zip_code {
+        width: 410px;
+     }
+
+    #birth {
+        width: 530px;
+    }
+    
+    form p{ 
+        display: inline;
+        margin-left: 5px;
+    }
+
+    .gender {
+        width: 900px;
+
+    }
+
+    #female {
+        
+    }
+
+    .grade {
+
+    }
+    
+    #positions_container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #positions_container>div {
+        width: 50%;
+    }
+
     footer{
         background-color: var(--green);
         min-height: 5vh;
