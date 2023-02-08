@@ -292,7 +292,7 @@ label {
 label input {
     border: none;
     display: inline;
-    padding: 0.5rem;
+    padding: 0.3rem;
 }
 
 #nombreyapellido {
@@ -366,6 +366,20 @@ fieldset .grade {
 .uniform {
     width: 100%;
     display: block;
+}
+
+.firm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding-left: 2rem;
+    
+}
+#asignature {
+    width: 25vw ;
+    height: 6vh;
+    border: none ;
 }
 
 footer {
